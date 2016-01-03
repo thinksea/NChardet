@@ -1,0 +1,2 @@
+# NChardet
+NChardet是mozilla自动字符编码识别程序库chardet的.NET实现，它移植自jchardet，chardet的java版实现，可实现对给定字符流的编码探测。
