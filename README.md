@@ -28,7 +28,8 @@ NChardet通过逐个比较输入字符来猜测编码；由于是猜测，所以
 6. Dont know (默认)
 ICharsetDetectionObserver接口只有一个Notify方法，当NChardet引擎认为自己已经探测出正确的编码时，它就会调用这个Notify方法，用户程序可以从这个Nodify方法中得到通知（重写ICharsetDetectionObserver接口的Notify实现）。
 
-```代码实例：
+# 代码实例：
+```C#
 //实现ICharsetDetectionObserver接口
     public class MyCharsetDetectionObserver :
         NChardet.ICharsetDetectionObserver
