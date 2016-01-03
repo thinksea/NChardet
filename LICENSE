@@ -1,4 +1,7 @@
-Copyright (c) 2016, thinksea
+本程序移植自 mozilla 的 jchardet，版权说明请参照jchardet，如原作者无特殊声明，则C#代码采用BSD授权。
+thinksea 只做了代码的上传，并未对源代码做修改，所有权归 mozilla 所有。
+
+Copyright (c) 2016, mozilla
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
